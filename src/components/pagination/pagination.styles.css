@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul {
+        width: 10rem;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2rem;
+}
+
+.pagination ul li {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px #d8b9c3;
+}
+
+.pagination ul li.active {
+    background-color: #d8b9c3;
+    color: #fff;
+}

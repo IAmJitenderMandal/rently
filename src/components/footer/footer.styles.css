@@ -1,0 +1,41 @@
+.footer {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363062;
+}
+
+.footer .brandName {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    color: #d8b9c3;
+}
+
+.footer .currentYear {
+    color: #d8b9c3;
+}
+
+.footer .download {
+    display: flex;
+    align-items: center;
+}
+
+.footer .download-text {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    color: #d8b9c3;
+}
+
+.footer .apple, .footer .android {
+    font-size: 2rem;
+    margin: 0 .5rem;
+    color: #d8b9c3;
+}
+
+.footer .links a{
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}

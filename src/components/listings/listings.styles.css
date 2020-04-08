@@ -1,0 +1,9 @@
+.listings {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;   
+    /* border: 1px solid red; */
+    margin: 3rem auto;
+    justify-content: space-between;
+}
+

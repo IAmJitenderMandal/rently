@@ -1,0 +1,53 @@
+.listing {
+    width: 24rem;
+    height: 15rem;
+    padding: 1rem;
+    background-image: url('https://1.bp.blogspot.com/-RUC_EQbG-mg/XYEEMNSE5BI/AAAAAAAAKrE/HgrzsvBKBIgdWyXR3LnlAQfsxUO-RYJegCNcBGAsYHQ/s1600/Beautiful%2Bhouse%2Bplans%2Bwith%2Bphotos%2Bin%2BKerala.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+.nameAndPrice{
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    background-color: #d8b9c3be;
+    padding: 3px 5px;
+}
+
+.nameAndPrice .propertyName, .nameAndPrice .rent {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+} 
+
+.addressAndReview {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 3px 5px;
+    margin-top: 0.7rem;
+    font-size: .95rem;
+    background-color: #d8b9c3be;
+}
+
+.addressAndReview .address,
+.addressAndReview .dimension,
+.addressAndReview .review {
+    display: flex;
+    align-items: center;
+}
+
+.addressAndReview .address span,
+.addressAndReview .dimension span,
+.addressAndReview .review span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+}

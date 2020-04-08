@@ -1,0 +1,168 @@
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.filterLabel {
+    border: 1px solid #808080;
+    width: 11rem;
+    padding: 0.7rem 1.3rem;
+    font-size: 1.1rem;
+    position: relative;
+    margin: 0 1rem;
+}
+
+.filterLabel::after {
+    content: ' ';
+    width: 1rem;
+    height: 1rem;
+    /* background: red; */
+    background-image: url(../../img/icons/down-arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.typeFilter {
+    position: relative;
+}
+
+/* type filter styles */
+.typeFilter .filterVals {
+    position: absolute;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 8px 9px gray;
+    width: 35rem;
+    display: none;
+}
+
+.typeFilter .filterVals h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+.typeFilter .filterVals ul li {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.typeFilter .filterVals ul li input {
+    margin-right: 0.4rem;
+    width: 1.5rem;
+}
+
+
+/* lookingFor filter styles */
+.lookingFor {
+    position: relative;
+}
+
+.lookingForOptions {
+    position: absolute;
+    padding: 1rem;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 5px 8px 9px gray;
+    width: 100%;
+    display: none;
+}
+
+
+
+.lookingFor .lookingForOptions  li{
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+
+.lookingFor .lookingForOptions  li input {
+    margin-right: 0.4rem;
+    width: 1.5rem;
+}
+
+/* postedBy filter  styles */
+.postedBy {
+    position: relative;
+}
+
+.postedBy .postedByOptions {
+    position: absolute;
+    padding: 1rem;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 5px 8px 9px gray;
+    width: 100%;
+    display: none;
+}
+
+.postedBy .postedByOptions li {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.postedBy .postedByOptions li input {
+    margin-right: 0.4rem;
+    width: 1.5rem;
+}
+
+
+/* sharingType styles */
+
+.sharing {
+    position: relative;
+}
+
+.sharingOptions {
+    position: absolute;
+    padding: 1rem;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 5px 8px 9px gray;
+    width: 100%;
+    display: none;
+} 
+
+.sharingOptions li select {
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+}
+
+/* budget filter styles */
+.budget {
+    position: relative;
+}
+
+.budget .budgetOptions {
+    position: absolute;
+    display: flex;
+    padding: 1rem;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 5px 8px 9px gray;
+    display: none;
+}
+
+.budget .budgetOptions select {
+    height: 2.5rem;
+    background-color: transparent;
+}
+
+.budget .budgetOptions select:nth-child(2) {
+    margin-left: 1rem;
+}
